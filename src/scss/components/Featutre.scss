@@ -1,0 +1,90 @@
+.feature {
+    margin-bottom: 40px;
+  &-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      color: $primary;
+    }
+    .feature-arrow {
+      display: flex;
+      .feature-arrows {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s ease-in-out;
+        &:hover {
+          background-color: #007580;
+          color: white;
+        }
+      }
+    }
+  }
+  &-main {
+    &-item {
+      .image {
+        height: 312px;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        p {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          font-size: 13px;
+          font-weight: 500;
+          padding: 5px 12px;
+          background-color: $buttoncolor;
+          border-radius: 4px;
+          color: white;
+        }
+        svg {
+          position: absolute;
+          height: 44px;
+          width: 44px;
+          top: 20px;
+          right: 20px;
+          padding: 2px 8px;
+          background-color: white;
+          border-radius: 4px;
+        }
+      }
+      .feature-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        .content {
+          p {
+            font-size: 16px;
+            color: $primary;
+            margin-bottom: 0;
+          }
+          span{
+            font-size: 18px;
+            font-weight: 700;
+          }
+        }
+        .button{
+            width: 44px;
+            height: 44px;
+            padding: 5px 10px;
+            background-color: #F0F2F3;
+            border-radius: 4px;
+            transition: all .3s ease-in-out;
+            &:hover{
+                background-color: $secndarypro;
+            }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,13 @@
-//pages
-@import "./pages/_home";
+//utlis-->
+@import "./utils/variables";
 //base-->
-@import "./base/_reset";
-@import "./base/_typography";
+@import "./base/typography";
+@import "./base/reset";
+//pages--->
+@import "./pages/home";
+//components-->
+@import "./components/header";
+@import "./components/bannar";
+@import "./components/buying";
+@import "./components/galary";
+@import "./components/Featutre.scss";
